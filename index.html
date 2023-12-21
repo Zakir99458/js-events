@@ -6,7 +6,11 @@
     <title>Events</title>
 </head>
 <body>
-    <h1>Working with JavaScript Events</h1>
-    <button onclick="alert('you pressed me!')">Click me</button>
+    <h1 onclick="console.log('h1 is clicked')">Working with JavaScript Events</h1>
+    <button onclick="document.body.style.backgroundColor = 'yellow' ">Click me: Yellow</button>
+    <button onclick="createBkRedColor()">Click me: Red</button>
+    <button id="blue-button">Click me: Blue</button>
+
+    <script src="js/events.js"></script>
 </body>
 </html>
