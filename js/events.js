@@ -31,3 +31,8 @@ const blackButton = document.getElementById('black-button');
 blackButton.addEventListener("click", function(){
     document.body.style.backgroundColor = 'black';
 });
+
+// orange-button
+document.getElementById("orange-button").addEventListener("click", function(){
+    document.body.style.backgroundColor = 'orange';
+})
