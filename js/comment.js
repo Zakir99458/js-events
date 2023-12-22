@@ -11,6 +11,7 @@ document.getElementById('submit-comment').addEventListener('click', function(){
 
     const commentContainers = document.getElementById('comment-containers');
     commentContainers.appendChild(p);
+    commentContains.value = '';
 })
 
 
